@@ -1,0 +1,18 @@
+.big-ol-heading {
+  margin: 0 0 20px 0;
+  padding: 10px;
+}
+
+.get-swole {
+  text-transform: uppercase;
+  font-family: "PostoniWide","Bodoni 72","Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,Georgia,serif;
+  line-height: 1em;
+}
+
+.get-swole.sub {
+  margin-right: 10px;
+}
+
+.get-swole a:hover {
+  color: #000 !important;
+}

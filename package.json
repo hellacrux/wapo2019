@@ -1,0 +1,29 @@
+{
+  "name": "wapo2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build-site.js && npm run cname",
+    "cname": "echo \"my-washingtonpost.com\" > docs/CNAME",
+    "start": "npm run build && http-server docs",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellacrux/wapo2019/issues"
+  },
+  "homepage": "https://github.com/hellacrux/wapo2019",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "empty-folder": "^2.0.3",
+    "http-server": "^0.11.1",
+    "image-downloader": "^3.4.2",
+    "marked": "^0.6.0",
+    "ncp": "^2.0.0",
+    "node-fetch": "^2.3.0",
+    "surge": "^0.20.1"
+  }
+}
